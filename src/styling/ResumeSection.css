@@ -1,0 +1,30 @@
+.resume-section-container {
+    padding: 50 0px;
+  }
+
+.timeline-container {
+  padding: 100 0px;
+}
+  /* YourComponent.css */
+
+.custom-card {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: none;
+}
+
+.card {
+  border: none;
+}
+
+@media (min-width: 576px) {
+  /* Adjust the breakpoint as needed */
+  .custom-card {
+    width: 30%;
+  }
+
+  .custom-card:nth-child(2) {
+    width: 70%;
+  }
+}

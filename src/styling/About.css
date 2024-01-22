@@ -1,0 +1,46 @@
+/* Home.css */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #191919;
+  padding: 100px;
+}
+
+.about-image-container {
+  flex: 1; /* Take up 50% of the available space */
+  padding: 20px; /* Add some padding for spacing */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.about-image-container img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 12px; /* Optional: Add border radius for a rounded image */
+}
+
+.card-container {
+  flex: 1; /* Take up 50% of the available space */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+.card {
+  background-color: #d2deeb;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
+}
+
+/* Additional styling for your card content */
+.card h2 {
+  color: #333;
+}
+
+.card p {
+  color: #666;
+}

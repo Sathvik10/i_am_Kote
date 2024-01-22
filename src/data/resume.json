@@ -1,0 +1,124 @@
+{
+    "Education" : [
+        {
+            "Name" : "Texas A&M University",
+            "City" : "College Station",
+            "Country" : "United States",
+            "Position" : "Master of Science in Computer Science",
+            "start-date" : "Aug-2023",
+            "end-date" : "Present",
+            "description": "Courses: [ Machine Learning, Information Storgae And Retrival, Computers and New Media, Algorithms, Operating Systems ]",
+            "SubName" : ""
+        },
+        {
+            "Name" : "RV College of Engineering",
+            "City" : "Bangalore",
+            "Country" : "India",
+            "Position" : "Bachelor of Engineering in Computer Science",
+            "start-date" : "Aug-2017",
+            "end-date" : "Jun-2021",
+            "description": "Courses: [ Linear Algebra, Fuzzy Logic, Distributes Systems, Big Data Analytics, Graph and Probability theory ]",
+            "SubName" : ""
+        }
+    ],
+    "Work" : [
+        {
+            "Name" : "Walmart Global Tech",
+            "City" : "Bangalore",
+            "Country" : "India",
+            "Position" : "Software Developer II",
+            "start-date" : "July-2021",
+            "end-date" : "July-2023",
+            "description": "- I was a Software Development Engineer II at Walmart, within the supply chain operations of Sam's Club. My primary focus was on Post-Fulfilment (Financials), and I played a key role in a modernization initiative that involved building a new Order Management System based on microservices architecture.\n - In this initiative, I led the modernization efforts for the invoicing service, catering to 69 million Sam's Club customers across the United States. The new system achieved a processing speed of 10,000 records per minute, significantly reducing accounting discrepancies from $44 million to $8 million. \n - Over the span of two years, I contributed to various projects, including Healer Service, Distributed ID Generator, and State Machine for Order Orchestration. In addition to my technical involvement in multiple projects, I mentored four colleagues and received a Bravo Award for exceptional time management and collaboration skills in a fast-paced environment.",
+            "SubName" : "Supply Chain Management"
+        },
+        {
+            "Name" : "Walmart Global Tech",
+            "City" : "Bangalore",
+            "Country" : "India",
+            "Position" : "Software Developer Intern",
+            "start-date" : "Jan-2021",
+            "end-date" : "June-2023",
+            "description": "- Led analysis on order rates and packaging’s impact on curbside orders, identifying insights for customer satisfaction.\n - Established a metric for optimizing order fulfillment by initiating calculations on Perfect Order Index.",
+            "SubName" : "Supply Chain Management"
+        },
+        {
+            "Name" : "Microsoft",
+            "City" : "Hyderbad",
+            "Country" : "India",
+            "Position" : "Software Developer Intern",
+            "start-date" : "May-2020",
+            "end-date" : "July-2020",
+            "description": "- Enhanced data management and user accessibility by providing RBAC to Industrial Data Workbench.\n - Empowered customers to view, manage and define data models and pipelines at one place.",
+            "SubName" : "Azure Cloud"
+        }
+    ],
+    "Skills" : [
+        {
+            "type" : "Programming Languages",
+            "skill" : [
+                {
+                    "name" : "Java",
+                    "proficiency" : "9"
+                },
+                {
+                    "name" : "C++",
+                    "proficiency" : "8"
+                },
+                {
+                    "name" : "Python",
+                    "proficiency" : "7"
+                }
+            ]
+        },
+        {
+            "type" : "Technologies",
+            "skill" : [
+                {
+                    "name" : "Spring Boot",
+                    "proficiency" : "9"
+                },
+                {
+                    "name" : "Oracle / Azure Cosmos",
+                    "proficiency" : "7"
+                },
+                {
+                    "name" : "Kubernetes",
+                    "proficiency" : "6"
+                }
+            ]
+        }
+    ],
+    "Projects" : [
+        {
+            "name" : "Sentiment Analysis by Transfer Learning [Python, Pytorch]",
+            "description" : "Designed a machine learning model using base BERT to classify Yelp reviews into positive, neutral, and negative. Achieved a F1 score of 0.87 on a highly unbalanced dataset. Approach:| 1. Classifier Design | 2. Parameter Tuning | 3. Layer Selection | 4. Unfreezing the Bert.",
+            "code" : "https://github.com/Sathvik10/Text-Classification-Using-Base-Bert",
+            "link" : ""
+        },
+        {
+            "name" : "Capstone Matching Project [Ruby On Rails]",
+            "description" : "The Capstone Matching process involves the process of matching students with suitable projects or clients based on their skills, interests, and the requirements of the project or client needs. Goal: Consolidate all parts of the Capstone Matching process into one place and reduce manual aspects. \n Key Aspects: \n 1. Student Form: Students input their demographic information, resume (optional), and project ranking, so that they can be scored on these factors.\n 2. Matching Process: Ranking students with appropriate projects based on criteria such as technical skills, expertise, project scope, student preferences, and sponsor restrictions/preferences. \n 3. Admin Control: Oversee the entire matching process: managing project listings, form submission timelines, handle user accounts (including student and faculty profiles), configure the matching algorithm. \n 4. Professor Dashboard: View the student's matching score for a particular project, view details of all the projects and submit projects preferences.",
+            "code" : "https://github.com/Capstone-Matching/capstone-matching",
+            "link" : "https://www.youtube.com/watch?v=PIhjdXbvH_0"
+        },
+        {
+            "name" : "Chess Engine[C]",
+            "description" : "Programmed a chess engine using Min-Max Algorithm along with Alpha pruning. The engine could calculate next move at a depth of 5 using a combination of multiple data structures (Trees and Linked List).",
+            "code" : "https://github.com/Sathvik10/Chess-Using-C",
+            "link" : ""
+        },
+        {
+            "name" : "Soccer Agent [Reinforcement Learning, Python]",
+            "description" : "Modeled a soccer agent for an 11 vs. 11 game for competition hosted by Google on Kaggle. The agent was trained using a reinforcement technique called Q-Learning and obtained a score of 952.",
+            "code" : "https://colab.research.google.com/drive/1QnhbzNgstG6mAm3icyn_9li046E5vrrn?usp=sharing",
+            "link" : ""
+        },
+        {
+            "name" : "External Memory Merge Sort",
+            "description" : "EM Sort [C++]: Established an innovative solution to improve performance of binary merge by 200 M/s. Conducted a comparative analysis with existing algorithms, showcasing effectiveness of proposed approach.",
+            "code" : "",
+            "link" : ""
+        }
+    ]
+}
