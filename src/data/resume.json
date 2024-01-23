@@ -106,7 +106,7 @@
             "name" : "Chess Engine[C]",
             "description" : "Programmed a chess engine using Min-Max Algorithm along with Alpha pruning. The engine could calculate next move at a depth of 5 using a combination of multiple data structures (Trees and Linked List).",
             "code" : "https://github.com/Sathvik10/Chess-Using-C",
-            "link" : ""
+            "link" : "https://docs.google.com/presentation/d/1BqBgrKnBN3kMbm_PZGH7LfR_5xlhRPbzozyVrV2nKTY/edit?usp=sharing"
         },
         {
             "name" : "Soccer Agent [Reinforcement Learning, Python]",
@@ -117,8 +117,14 @@
         {
             "name" : "External Memory Merge Sort",
             "description" : "EM Sort [C++]: Established an innovative solution to improve performance of binary merge by 200 M/s. Conducted a comparative analysis with existing algorithms, showcasing effectiveness of proposed approach.",
-            "code" : "",
+            "code" : "https://github.com/Sathvik10/binary-merger",
             "link" : ""
+        },
+        {
+            "name" : "Integration of Octave with HPCC [C++]",
+            "description" : "The objective of the internship project was to run octave scripts within ECL. (ECL is a ETL language built for HPCC Systems). To run the octave scripts, I spawned a octave interpreter within the HPCC Context. The project required understanding on working of octave, mapping between octave datatypes and ECL datatypes, ensuring thread safety of octave symbol table.",
+            "code" : "",
+            "link" : "https://wiki.hpccsystems.com/display/hpcc/Sathvik+K+R+-+2019+Poster+Presentation"
         }
     ]
 }
