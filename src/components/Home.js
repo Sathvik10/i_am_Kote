@@ -4,6 +4,8 @@ import React from 'react';
 import '../styling/Home.css'; // Import a separate CSS file for styling
 import GitHubIcon from './Icons/GithubIcon';
 import LinkedInIcon from './Icons/LinkedInIcon';
+import InstagramIcon from './Icons/InstagramIcon';
+import { ExternalLinks } from '../data/data';
 
 const Home = () => {
   return (
@@ -22,8 +24,9 @@ const Home = () => {
             </p>
             <div className="flex gap-x-4 text-neutral-100">
               {/* <Socials /> */}
-              {<GitHubIcon link={"https://github.com/Sathvik10"} />}
-              {<LinkedInIcon link={"https://www.linkedin.com/in/sathvikkkote/"} />}
+              {<GitHubIcon link={ExternalLinks.github} />}
+              {<LinkedInIcon link={ExternalLinks.linkedIn} />}
+              {<InstagramIcon link={ExternalLinks.instagram}/>}
             </div>
             <div className="flex w-full justify-center gap-x-4">
               {/* {actions.map(({href, text, primary, Icon}) => (
