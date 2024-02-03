@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/i_am_Kote/static/css/main.201639bf.css",
-    "main.js": "/i_am_Kote/static/js/main.208da306.js",
+    "main.js": "/i_am_Kote/static/js/main.f2e86914.js",
     "static/js/787.ca8d1904.chunk.js": "/i_am_Kote/static/js/787.ca8d1904.chunk.js",
+    "static/media/Paper.png": "/i_am_Kote/static/media/Paper.3f485b0cb1437cf1ed81.png",
+    "static/media/BestPaper.png": "/i_am_Kote/static/media/BestPaper.58041bf886a86ff6b701.png",
+    "static/media/Hpcc.png": "/i_am_Kote/static/media/Hpcc.abfa3da00371bacf21e9.png",
     "static/media/IMG_0091.jpeg": "/i_am_Kote/static/media/IMG_0091.268aba8153f7670fe26b.jpeg",
     "static/media/IMG_0092.jpeg": "/i_am_Kote/static/media/IMG_0092.81ebb8b60f70fe32ed3f.jpeg",
+    "static/media/Microsoft.png": "/i_am_Kote/static/media/Microsoft.e3e045cd1efb2e45a4b7.png",
+    "static/media/Nokia.png": "/i_am_Kote/static/media/Nokia.d8bb09b44466aae0dd55.png",
     "index.html": "/i_am_Kote/index.html",
     "main.201639bf.css.map": "/i_am_Kote/static/css/main.201639bf.css.map",
-    "main.208da306.js.map": "/i_am_Kote/static/js/main.208da306.js.map",
+    "main.f2e86914.js.map": "/i_am_Kote/static/js/main.f2e86914.js.map",
     "787.ca8d1904.chunk.js.map": "/i_am_Kote/static/js/787.ca8d1904.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.201639bf.css",
-    "static/js/main.208da306.js"
+    "static/js/main.f2e86914.js"
   ]
 }
