@@ -29,7 +29,7 @@
               (code !== "") ?
               (<a
                 className="-m-2 bg-[#1D1F2F] justify-center flex rounded-md p-2 text-neutral-300 focus:ring-2 "
-                href={code}>
+                href={code} target="_blank" rel="noopener noreferrer">
                 <button className="ml-3 text-sm sm:text-base">Code</button>
               </a>): ("")
             }
@@ -37,7 +37,7 @@
               (link !== "") ? 
               (<a
                 className="-m-2 bg-[#1D1F2F] justify-center flex rounded-md p-2 text-neutral-300 focus:ring-2 "
-                href={link}target="_blank">
+                href={link} target="_blank" rel="noopener noreferrer">
                 <button className="ml-3 text-sm sm:text-base "  disable={link === ""?false:true}  >Link</button>
               </a>) : (<a></a>)
             }

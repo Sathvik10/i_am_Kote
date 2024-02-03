@@ -5,6 +5,7 @@ import About from './components/About'
 import Home from './components/Home';
 import Resume from './components/Resume';
 import ProjectList from './components/Project';
+import Collections from './components/Collections';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Resume />
       <ProjectList />
+      <Collections />
     </BrowserRouter>
   );
 }
