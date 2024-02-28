@@ -91,8 +91,23 @@
     ],
     "Projects" : [
         {
+            "name" : "External Memory Merge Sort",
+            "description" : "Established an optimized solution to improve the performance of the merge operation by 1.7 BIPS (billion instructions per second) by utilizing Batcher's Odd-Even merge algorithm. Additionally, conducted a comparative analysis with other existing algorithms for both scalar and vector (SIMD) forms, specifically evaluated on Intel Coffee Lake processors. The results of the comparisons can be found on the readMe page of the repository.",
+            "timeline" : "Dec 2023 - Current",
+            "code" : "https://github.com/Sathvik10/binary-merger",
+            "link" : "https://github.com/arif-arman/origami-sort"
+        },
+        {
+            "name" : "Opinion",
+            "description" : "Opinion is an effort to build a platform where people can use the platform to label their dataset. The platform can be used for both personal and professional purposes. The user can build spaces that are both private and public. The owner of the space can post conversations within the space that are received by its members. The members are given a choice to either like [1] or dislike [0] (binary classification). Planning to extend it further for multiclass classfication.(Frontend is yet to be started)",
+            "timeline" : "Dec 2023 - Current",
+            "code" : "https://github.com/Sathvik10/Opinion-Backend",
+            "link" : ""
+        },
+        {
             "name" : "Sentiment Analysis by Transfer Learning [Python, Pytorch]",
-            "description" : "Designed a machine learning model using base BERT to classify Yelp reviews into positive, neutral, and negative. Achieved a F1 score of 0.87 on a highly unbalanced dataset. Approach:| 1. Classifier Design | 2. Parameter Tuning | 3. Layer Selection | 4. Unfreezing the Bert.",
+            "description" : "Designed a machine learning model using base BERT to classify Yelp reviews into positive, neutral, and negative. The training was on carried out using 4 steps. Approach: 1. Classifier Design | 2. Parameter Tuning | 3. Layer Selection | 4. Unfreezing the Bert.Achieved a F1 score of 0.87 on a highly unbalanced dataset. ",
+            "timeline" : "Nov 2023 - Dec 2023",
             "code" : "https://github.com/Sathvik10/Text-Classification-Using-Base-Bert",
             "link" : ""
         },
@@ -100,31 +115,28 @@
             "name" : "Capstone Matching Project [Ruby On Rails]",
             "description" : "The Capstone Matching process involves the process of matching students with suitable projects or clients based on their skills, interests, and the requirements of the project or client needs. Goal: Consolidate all parts of the Capstone Matching process into one place and reduce manual aspects. \n Key Aspects: \n 1. Student Form: Students input their demographic information, resume (optional), and project ranking, so that they can be scored on these factors.\n 2. Matching Process: Ranking students with appropriate projects based on criteria such as technical skills, expertise, project scope, student preferences, and sponsor restrictions/preferences. \n 3. Admin Control: Oversee the entire matching process: managing project listings, form submission timelines, handle user accounts (including student and faculty profiles), configure the matching algorithm. \n 4. Professor Dashboard: View the student's matching score for a particular project, view details of all the projects and submit projects preferences.",
             "code" : "https://github.com/Capstone-Matching/capstone-matching",
-            "link" : "https://www.youtube.com/watch?v=PIhjdXbvH_0"
-        },
-        {
-            "name" : "Chess Engine[C]",
-            "description" : "Programmed a chess engine using Min-Max Algorithm along with Alpha pruning. The engine could calculate next move at a depth of 5 using a combination of multiple data structures (Trees and Linked List).",
-            "code" : "https://github.com/Sathvik10/Chess-Using-C",
-            "link" : "https://docs.google.com/presentation/d/1BqBgrKnBN3kMbm_PZGH7LfR_5xlhRPbzozyVrV2nKTY/edit?usp=sharing"
+            "link" : "https://www.youtube.com/watch?v=PIhjdXbvH_0",
+            "timeline" : "Sept 2023 - Dec 2023"
         },
         {
             "name" : "Soccer Agent [Reinforcement Learning, Python]",
             "description" : "Modeled a soccer agent for an 11 vs. 11 game for competition hosted by Google on Kaggle. The agent was trained using a reinforcement technique called Q-Learning and obtained a score of 952.",
             "code" : "https://colab.research.google.com/drive/1QnhbzNgstG6mAm3icyn_9li046E5vrrn?usp=sharing",
-            "link" : ""
-        },
-        {
-            "name" : "External Memory Merge Sort",
-            "description" : "EM Sort [C++]: Established an innovative solution to improve performance of binary merge by 200 M/s. Conducted a comparative analysis with existing algorithms, showcasing effectiveness of proposed approach.",
-            "code" : "https://github.com/Sathvik10/binary-merger",
-            "link" : ""
+            "link" : "",
+            "timeline" : "Oct 2020 - Dec 2020"
         },
         {
             "name" : "Integration of Octave with HPCC [C++]",
             "description" : "The objective of the internship project was to run octave scripts within ECL. (ECL is a ETL language built for HPCC Systems). To run the octave scripts, I spawned a octave interpreter within the HPCC Context. The project required understanding on working of octave, mapping between octave datatypes and ECL datatypes, ensuring thread safety of octave symbol table.",
-            "code" : "",
+            "code" : "May 2019 - Aug 2019",
             "link" : "https://wiki.hpccsystems.com/display/hpcc/Sathvik+K+R+-+2019+Poster+Presentation"
+        },
+        {
+            "name" : "Chess Engine[C]",
+            "description" : "Programmed a chess engine using Min-Max Algorithm along with Alpha pruning. The engine could calculate next move at a depth of 5 piles using a combination of multiple data structures (Trees and Linked List).",
+            "code" : "https://github.com/Sathvik10/Chess-Using-C",
+            "timeline" : "Nov 2020 - Jan-2019",
+            "link" : "https://docs.google.com/presentation/d/1BqBgrKnBN3kMbm_PZGH7LfR_5xlhRPbzozyVrV2nKTY/edit?usp=sharing"
         }
     ]
 }

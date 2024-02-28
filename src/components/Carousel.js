@@ -6,7 +6,7 @@
   // Slide
   // =========================
 
-  const ProjectSlide = ({title, description, code, link})=>{
+  const ProjectSlide = ({title, description, code, link, timeline})=>{
     return(
       <div className="card min-h-full bg-neutral-100">
         <div className="card-header">
@@ -15,6 +15,9 @@
           </h2>
         </div>
         <div className="card-body overflow-scroll ">
+          {
+            timeline !== "" ?<b>{timeline}</b> : ""
+          }
           <p className="overflow-scroll text-justify">
             {description}
           </p>
@@ -82,7 +85,7 @@
     render() {
       const index = this.props.index
 
-      const { name, description, code, link} = this.props.project
+      const { name, description, code, link, timeline} = this.props.project
       const current = this.props.current
       let classNames = 'slide'
       
@@ -105,7 +108,7 @@
               src={src}
               onLoad={this.imageLoaded}
             /> */}
-            <ProjectSlide title={name} description={description} code={code} link={link}/>
+            <ProjectSlide title={name} description={description} code={code} link={link} timeline={timeline}/>
 
           </div>
         </li>
