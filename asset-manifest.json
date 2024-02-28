@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/i_am_Kote/static/css/main.201639bf.css",
-    "main.js": "/i_am_Kote/static/js/main.f2e86914.js",
+    "main.js": "/i_am_Kote/static/js/main.377d3633.js",
     "static/js/787.ca8d1904.chunk.js": "/i_am_Kote/static/js/787.ca8d1904.chunk.js",
     "static/media/Paper.png": "/i_am_Kote/static/media/Paper.3f485b0cb1437cf1ed81.png",
     "static/media/BestPaper.png": "/i_am_Kote/static/media/BestPaper.58041bf886a86ff6b701.png",
@@ -12,11 +12,11 @@
     "static/media/Nokia.png": "/i_am_Kote/static/media/Nokia.d8bb09b44466aae0dd55.png",
     "index.html": "/i_am_Kote/index.html",
     "main.201639bf.css.map": "/i_am_Kote/static/css/main.201639bf.css.map",
-    "main.f2e86914.js.map": "/i_am_Kote/static/js/main.f2e86914.js.map",
+    "main.377d3633.js.map": "/i_am_Kote/static/js/main.377d3633.js.map",
     "787.ca8d1904.chunk.js.map": "/i_am_Kote/static/js/787.ca8d1904.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.201639bf.css",
-    "static/js/main.f2e86914.js"
+    "static/js/main.377d3633.js"
   ]
 }
