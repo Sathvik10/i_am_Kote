@@ -18,7 +18,7 @@ const aboutMe = {
         },
         {  
             "label" : "Employment",
-            "text" : "Ex Walmart Global Tech | Ex Microsoft"
+            "text" : "Tesla | Ex Walmart Global Tech | Ex Microsoft"
         },
         {
             "label" : "Study",
